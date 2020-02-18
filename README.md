@@ -1,16 +1,20 @@
-# flutter_x_unity
+# Flutter_x_Unity_x_Native
 
-A new Flutter project.
+# Setup the project
 
-## Getting Started
+1) Download and Install Git LFS from https://git-lfs.github.com/
+2) Clone the project
 
-This project is a starting point for a Flutter application.
+# Steps to build iOS
 
-A few resources to get you started if this is your first Flutter project:
+3) Go to directory 'cd FlutterxUnityxNative/ios'
+4) Open the xcworkspace 'Runner.xcworkspace' and select the target Runner. Go tab 'Signing and Capabilities' and select an appropriate Team for the Apple Developer Account. 
+5) Go back to the main directory (FlutterxUnityxNative) 'cd ..' and run the command 'flutter build ios'. Make sure the build runs successfully.
+6) Attach an iOS device and run the project using XCode after selecting the attached device or run using flutter command 'flutter run'.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Steps to build Android
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+7) Go to the main directory 'FlutterxUnityxNative' and run the command 'flutter build apk --debug'
+8) Use Android Studio to run the project.
+  
+  
