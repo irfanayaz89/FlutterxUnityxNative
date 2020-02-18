@@ -16,5 +16,5 @@
 
 7) Go to the main directory 'FlutterxUnityxNative' and run the command 'flutter build apk --debug'
 8) Use Android Studio to run the project.
-  
-  
+9) If you encounter this error 'could not setcwd() (errno 2: No such file or directory)', go to the android folder inside project repo and delete '.idea' and '.gradle' folders. Go to your gradle home directory and delete 'caches' folder. In the Android Studio, Go to File > Invalidate Caches / Restart and press the 'Invalidate and Restart' button.
+10) Press the Gradle sync button and run the app.
